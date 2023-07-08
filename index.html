@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading">
+            
+            <nav class="nav-algo">
+                <button id="bs">Bubble Sort</button>
+                <button id="ss">Selection Sort</button>
+                <button id="is">Insertion Sort</button>
+                <button id="ms">Merge Sort</button>
+                <button id="qs">Quick Sort</button>
+                <button id="hs">Heap Sort</button>
+            </nav>
+            <br>
+            <div class="slider">
+                <span >size
+                <input style="margin-left: 20px" type="range" id="array-size" value="30" name="array-size" min="5" max="150"></span>
+                <span>speed 
+                <input style="margin-left: 20px" type="range" id="speed" name="speed" value="100" min="20" max="500"></span>
+            </div>
+        <div>
+            
+        </div>
+
+    </header>
+    <section class="sect">
+        <!-- <div class="container">
+            
+        </div> -->
+    </section>
+    <div class="timeAndSpace">
+        <p id="tc">Time Complexity : O(n²)</p>
+        <p id="sc">Space Complexity : O(1)</p>
+    </div>
+</body>
+<script src="index.js"></script>
+<script src="bubbleSort.js"></script>
+</html>
